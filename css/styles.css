@@ -3,6 +3,7 @@ body {
     color:#212121;
     background-color: #F5F5F5;
 }
+/*Навігація*/
 .logo {
         width: 145px;
         height: 31px;
@@ -20,18 +21,25 @@ body {
 .page-header .studio {
     color: #212121;
 }
-.page-footer .studio {
-    color: #FFFFFF;
+.site-nav {
+        font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+                color: #212121;
 }
-.site-nav [href="./index.html"] {
+.site-nav1 {
     color: #2196F3;
 }
-.auth-nav [href="mailto:info@devstudio.com"] {
+/*Контакти*/
+.auth-navm {
         color: #2196F3;
 }
-.auth-nav [href="tel:+380961111111"] {
+.auth-navt {
     color: #757575;
 }
+/*Головна сторінка*/
 main {
         font-style: normal;
         font-weight: 900;
@@ -42,32 +50,43 @@ main {
         color: #FFFFFF;      
 }
 .order-button {
+position: absolute;
         width: 216px;
         height: 50px;
+        left: 692px;
+        top: 430px;
         background-color: #2196F3;
         color: #ffffff;
 }
 .main-background {
         background: #2F303A;
 }
-.advantages h3 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.advantages p {
+.advantages {
+        width: 270px;
+        height: 16px;
+        left: 215px;
+        top: 774px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 14px;
-        line-height: 2;
+        line-height: 1.14;
         letter-spacing: 0.03em;
-        color: #757575;
+        text-transform: uppercase;
+        color: #212121;
 }
-.examples h2 {
+.advantages-description {
+        width: 270px;
+                height: 72px;
+                left: 215px;
+                top: 800px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.71;
+                letter-spacing: 0.03em;
+                color: #757575;
+}
+.examples {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -75,7 +94,7 @@ main {
         letter-spacing: 0.03em;
         color: #212121;
 }
-.staff h2 {
+.staff {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -84,7 +103,7 @@ main {
         letter-spacing: 0.03em;
         color: #212121;
 }
-.staff h3 {
+.staff-name {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -92,7 +111,7 @@ main {
         letter-spacing: 0.03em;
         color: #212121;
 }
-.staff p {
+.staff-position {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -100,7 +119,11 @@ main {
         letter-spacing: 0.03em;
         color: #757575;
 }
-.page-footer .place {
+/*Footer*/
+.page-footer .studio {
+        color: #FFFFFF;
+}
+.place {
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -108,7 +131,7 @@ main {
             letter-spacing: 0.03em;
             color: #FFFFFF;
 }
-.page-footer .email {
+ .email {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -116,7 +139,7 @@ main {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
-.page-footer .phone {
+.phone {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -124,13 +147,14 @@ main {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
-footer {
+.page-footer {
+        background-color: #2F303A;
         width: 1600px;
         height: 252px;
         left: 0px;
-        top: 2094px;
-        background-color: #2F303A;
+        top: 2094px;     
 }
+/*Portfolio*/
 .filters {
         font-style: normal;
         font-weight: 500;

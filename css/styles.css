@@ -1,15 +1,167 @@
+body {
+    font-family: Roboto;
+    color:#212121;
+    background-color: #F5F5F5;
+}
 .logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: 'Raleway';
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page-header .studio {
+    color: #212121;
+}
+.page-footer .studio {
+    color: #FFFFFF;
+}
+.site-nav [href="./index.html"] {
+    color: #2196F3;
+}
+.auth-nav [href="mailto:info@devstudio.com"] {
+        color: #2196F3;
+}
+.auth-nav [href="tel:+380961111111"] {
+    color: #757575;
+}
+main {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;      
+}
+.order-button {
+        width: 216px;
+        height: 50px;
+        background-color: #2196F3;
+        color: #ffffff;
+}
+.main-background {
+        background: #2F303A;
+}
+.advantages h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #2196F3;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    color: #212121;
 }
+.advantages p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 2;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.examples h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.staff h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.staff h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.staff p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.page-footer .place {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+}
+.page-footer .email {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.page-footer .phone {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+footer {
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2094px;
+        background-color: #2F303A;
+}
+.filters {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+        color: #212121;
+        background-color: #F5F4FA
+}
+.filter-1 {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.portfolio-body {
+    background-color: #F5F5F5;
+}
+.examples h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.examples p {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+

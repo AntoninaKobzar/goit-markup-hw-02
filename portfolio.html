@@ -10,35 +10,35 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="styles.css" href="styles/styles.css" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header>
+  <body class="portfolio-body">
+    <header class="page-header">
       <nav>
-        <a href="" class="logo">WebStudio</a>
-        <ul>
+        <a href="" class="logo">Web<span class="studio">Studio</span></a>
+        <ul class="site-nav">
           <li><a href="./index.html">Студія</a></li>
           <li><a href="./portfolio.html">Портфоліо</a></li>
           <li><a href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="auth-nav">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <!--Фільтр з 5 кнопок-->
-      <ul>
-        <li><button type="button">Усі</button></li>
-        <li><button type="button">Веб-сайти</button></li>
-        <li><button type="button">Додатки</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <ul class="filters">
+        <li><button type="button" class="filter-1">Усі</button></li>
+        <li><button type="button" class="filter-2">Веб-сайти</button></li>
+        <li><button type="button" class="filter-3">Додатки</button></li>
+        <li><button type="button" class="filter-4">Дизайн</button></li>
+        <li><button type="button" class="filter-5">Маркетинг</button></li>
       </ul>
       <!--Приклади робіт-->
-      <ul>
+      <ul class="examples">
         <li>
           <a href="">
             <img
@@ -124,18 +124,19 @@
         </li>
       </ul>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="page-footer">
+      <a href="" class="logo">Web<span class="studio">Studio</span></a>
       <address>
         <ul>
           <li>
             <a
               href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
+              class="place"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

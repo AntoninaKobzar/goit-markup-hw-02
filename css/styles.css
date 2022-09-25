@@ -18,10 +18,13 @@ body {
         color: #2196F3;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.logo:hover {
+color: #2196F3;
+}
 .page-header .studio {
     color: #212121;
 }
-.site-nav {
+.site-nav .link {
         font-style: normal;
                 font-weight: 500;
                 font-size: 14px;
@@ -29,7 +32,8 @@ body {
                 letter-spacing: 0.02em;
                 color: #212121;
 }
-.site-nav1 {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196F3;
 }
 /*Контакти*/
@@ -61,12 +65,17 @@ position: absolute;
 .main-background {
         background: #2F303A;
 }
-.advantages {
-        width: 270px;
-        height: 16px;
-        left: 215px;
-        top: 774px;
-        font-style: normal;
+.section-title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.17;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #212121;
+}
+.section-subtitle {
+font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -74,50 +83,13 @@ position: absolute;
         text-transform: uppercase;
         color: #212121;
 }
-.advantages-description {
-        width: 270px;
-                height: 72px;
-                left: 215px;
-                top: 800px;
-                font-style: normal;
+.section-text {
+        font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 1.71;
                 letter-spacing: 0.03em;
                 color: #757575;
-}
-.examples {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: #212121;
-}
-.staff {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-}
-.staff-name {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #212121;
-}
-.staff-position {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #757575;
 }
 /*Footer*/
 .page-footer .studio {

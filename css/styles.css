@@ -53,7 +53,10 @@ color: var(--button-active-color);
 /*Контакти*/
 .auth-nav {
     color: var(--accent-text-color);
+    font-size: 14px;
+    line-height: 1.14;
     font-weight: 500;
+letter-spacing: 0.02em;
     text-decoration: none;
 }
 .auth-nav:hover,
@@ -99,10 +102,11 @@ color: var(--button-active-color);
                 color: var(--primary-text-color);
 }
 .section-subtitle {
-        font-weight: 500;
-                font-size: 16px;
-                line-height: 1.19;
+        font-weight: 700;
+                font-size: 14px;
+                line-height: 1.14;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: var(--primary-text-color);
 }
 .section-text {
@@ -153,7 +157,6 @@ color: var(--button-active-color);
 /*Portfolio*/
 .filter {
         font-family: Roboto;
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
@@ -182,6 +185,7 @@ color: var(--button-active-color);
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--primary-text-color);
+        text-decoration: none;
 }
 .examples p {
     font-size: 16px;
@@ -189,5 +193,10 @@ color: var(--button-active-color);
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
 }
+.link {
+        text-decoration: none;
+}
+
+
 
  

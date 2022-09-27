@@ -27,6 +27,7 @@ body {
         letter-spacing: 0.03em;
         color: var(--button-active-color);
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-decoration: none;
 }
 .logo:hover {
 color: var(--button-active-color);
@@ -40,6 +41,7 @@ color: var(--button-active-color);
                 line-height: 1.14;
                 letter-spacing: 0.02em;
                 color: var(--primary-text-color);
+                text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,6 +53,8 @@ color: var(--button-active-color);
 /*Контакти*/
 .auth-nav {
     color: var(--accent-text-color);
+    font-weight: 500;
+    text-decoration: none;
 }
 .auth-nav:hover,
 .auth-nav:focus {
@@ -68,6 +72,11 @@ color: var(--button-active-color);
                 border: 1px solid #000000;
 }
 .order-button {
+        font-family: Roboto;
+        font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 1.88;
         background-color: var(--button-active-color);
         color: var(--aditional-color);
         cursor: pointer;
@@ -90,15 +99,14 @@ color: var(--button-active-color);
                 color: var(--primary-text-color);
 }
 .section-subtitle {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
+        font-weight: 500;
+                font-size: 16px;
+                line-height: 1.19;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: var(--primary-text-color);
 }
 .section-text {
-                font-size: 14px;
+                font-size: 16px;
                 line-height: 1.71;
                 letter-spacing: 0.03em;
                 color: var(--accent-text-color);
@@ -109,21 +117,27 @@ color: var(--button-active-color);
 }
 .place {
             font-size: 14px;
+            font-style: normal;
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: var(--aditional-color);
+            text-decoration: none;
 }
  .email {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
 .phone {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
 .page-footer {
         background-color: #2F303A;
@@ -138,6 +152,8 @@ color: var(--button-active-color);
 }
 /*Portfolio*/
 .filter {
+        font-family: Roboto;
+        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
@@ -149,7 +165,8 @@ color: var(--button-active-color);
         list-style: none;
 }
 .filter:hover,
-.filter:focus {
+.filter:focus,
+.filter:active {
     color: var(--aditional-color);
     background-color: var(--button-active-color);
 }

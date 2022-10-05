@@ -16,7 +16,6 @@ body {
         font-weight: 400;
     color:var(--primary-text-color);
     background-color: var(--background-color);
-    margin: 0;
 }
 h1,
 h2,
@@ -28,18 +27,23 @@ ul {
 }
 .conteiner {
         width: 100%;
-        max-width: 1170px;
-        margin: 0 auto;
-        margin-bottom: 94px;
-        padding: 0;
+        max-width: 1200px;
+        margin: 0 200px 94px 200px;
+        padding: 0 15px;
+        outline: 2px solid tomato;
+}
+.conteiner:nth-child(4) {
+        margin-bottom: 0;
 }
 
 /*Навігація*/
 .conteiner-header {
-        margin: 0 230px;
+        margin: 0 200px;
         width: 100%;
         max-width: 1200px;
+        padding: 0 15px;
         border-bottom: 1px solid #ECECEC;
+        outline: 2px solid tomato;
 }
 .logo {
         width: 145px;
@@ -92,12 +96,11 @@ letter-spacing: 0.02em;
         color:var(--button-active-color);
 }
 /*Головна сторінка*/
-.main-container {
-        display: inline-block;
-        margin-left: 0;
-        margin-right: 0;
+.main-conteiner {
         width: 100%;
-        max-width: 1600px;
+        min-width: 1600px;
+        margin-bottom: 94px;
+        outline: 2px solid tomato;
         
 }
 .main-title {
@@ -127,7 +130,12 @@ letter-spacing: 0.02em;
         color: var(--aditional-color);
 }
 .main-background {
-                background: #2F303A;
+        background: #2F303A;
+        width: 100%;
+        min-width: 1600px;
+}
+.section {
+        outline: 2px solid tomato;
 }
 .section-title {
                 font-weight: 700;
@@ -152,6 +160,13 @@ letter-spacing: 0.02em;
                 color: var(--accent-text-color);
 }
 /*Footer*/
+.conteiner-footer {
+                margin: 0 200px;
+                width: 100%;
+                max-width: 1200px;
+                padding: 0 15px;
+                outline: 2px solid tomato;
+}
 .page-footer .studio {
         color: var(--aditional-color);
 }
@@ -182,7 +197,6 @@ letter-spacing: 0.02em;
 .page-footer {
         background-color: #2F303A;
         width: 1600px;
-        height: 252px;
         left: 0px;
         top: 2094px;     
 }
@@ -191,6 +205,13 @@ letter-spacing: 0.02em;
   color: var(--button-active-color);
 }
 /*Portfolio*/
+.portfolio-conteiner {
+width: 100%;
+        max-width: 1200px;
+        margin: 94px 200px;
+        padding: 0 15px;
+        outline: 2px solid tomato;
+}
 .filter {
         font-family: Roboto;
         font-weight: 500;

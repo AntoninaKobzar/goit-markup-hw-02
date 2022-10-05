@@ -38,6 +38,7 @@ ul {
 
 /*Навігація*/
 .conteiner-header {
+        display: flex;
         margin: 0 200px;
         width: 100%;
         max-width: 1200px;
@@ -46,10 +47,8 @@ ul {
         outline: 2px solid tomato;
 }
 .logo {
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px;
+        display: flex;
+        
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -69,6 +68,10 @@ color: var(--button-active-color);
 }
 .site-nav {
         display: flex;
+        align-items: flex-start;
+        margin-left: 0;
+        padding-left: 0;
+        
 }
 
 .site-nav .list:not(:last-child) {
@@ -111,6 +114,11 @@ letter-spacing: 0.02em;
 }
 .site-auth {
         display:flex;
+        margin-left: auto;
+        align-items: center;
+}
+.site-auth .list + .list {
+        margin-left: 50px;
 }
 /*Головна сторінка*/
 .main-conteiner {

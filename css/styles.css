@@ -67,13 +67,26 @@ color: var(--button-active-color);
 .page-header .studio {
     color: var(--primary-text-color);
 }
+.site-nav {
+        display: flex;
+}
+
+.site-nav .list:not(:last-child) {
+        margin-right: 50px;       
+}
+.site-nav .list+ .list {
+margin-left: 0;
+}
 .site-nav .link {
+        display: block;
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
                 letter-spacing: 0.02em;
                 color: var(--primary-text-color);
                 text-decoration: none;
+                padding-top: 32px;
+                padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -84,6 +97,7 @@ color: var(--button-active-color);
 }
 /*Контакти*/
 .auth-nav {
+        display: block;
     color: var(--accent-text-color);
     font-size: 14px;
     line-height: 1.14;
@@ -94,6 +108,9 @@ letter-spacing: 0.02em;
 .auth-nav:hover,
 .auth-nav:focus {
         color:var(--button-active-color);
+}
+.site-auth {
+        display:flex;
 }
 /*Головна сторінка*/
 .main-conteiner {

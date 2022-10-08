@@ -15,7 +15,6 @@ body {
     font-style: normal;
         font-weight: 400;
     color:var(--primary-text-color);
-    background-color: var(--background-color);
 }
 h1,
 h2,
@@ -44,6 +43,9 @@ ul {
         width: auto;
         padding-bottom: 94px;
 }
+.section-staff {
+        padding-bottom: 94px;
+}
 .section-portfolio {
         width: auto;
         padding: 94px 0;
@@ -53,12 +55,14 @@ ul {
         background-color: #2F303A;
 }
 /*Навігація*/
+.page-header {
+        border-bottom: 1px solid #ECECEC;
+}
 .conteiner-header {
         display: flex;
         margin: 0 auto;
         padding: 0 15px;
-        width: 1200px;
-        border-bottom: 1px solid #ECECEC;      
+        width: 1200px;     
 }
 .logo-header {
         display: flex;
@@ -159,6 +163,9 @@ ul {
 }
 .order-button {
         display: block;
+        min-width: 216px;
+        height: 50px;
+        padding: 10px 32px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 700;
@@ -243,7 +250,7 @@ ul {
 }     
 .conteiner-staff {
         width: 1200px;
-        padding: 94px 15px 94px 15px;
+        padding: 0 15px;
         margin: 0 auto;
 }
 .staff {
@@ -258,6 +265,10 @@ ul {
         background: var(--aditional-color);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
+}
+.card-text {
+        padding-top: 30px;
+        padding-bottom: 30px;
 }
 .staff-name {
         font-family: 'Roboto';
@@ -283,10 +294,11 @@ ul {
         color: var(--accent-text-color);
 }
 /*Footer*/
-.conteiner-footer {
+.page-footer {
         padding: 60px 15px 60px 15px;
         width: 1200px;
-        margin: 0 auto;               
+        margin: 0 auto;
+        background-color: #2F303A;
 }
 .logo-footer {
         display: flex;
@@ -307,7 +319,9 @@ ul {
         padding-left: 0;
         margin-top: 20px;
 }
-
+.list:not(:last-child) {
+        margin-bottom: 9px;
+}
 .place {
         font-size: 14px;
         font-style: normal;
@@ -315,7 +329,7 @@ ul {
         letter-spacing: 0.03em;
         color: var(--aditional-color);
         text-decoration: none;
-        margin-bottom: 9px;
+        
 }
  .email {
         font-size: 14px;
@@ -324,7 +338,6 @@ ul {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        margin-bottom: 9px;
 }
 .phone {
         font-size: 14px;
@@ -333,9 +346,6 @@ ul {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-}
-.section-footer {
-        background-color: #2F303A;   
 }
 .address a:focus,
 .address a:hover {
@@ -346,10 +356,10 @@ ul {
         width: 1200px;
         padding: 0 15px;
         margin: 0 auto;
-        background: var(--background-color);
 }
 .filter {
         margin-right: 8px;
+        padding: 6px 22px;
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
@@ -362,6 +372,7 @@ ul {
 }
 .filter-all {
         margin-right: 8px;
+        padding: 6px 25px;
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
@@ -397,9 +408,6 @@ ul {
 .button {
         cursor: pointer;
 }
-.portfolio-body {
-        background-color: var(--background-color);
-}
 .conteiner-examples {
         width: 1170px;
         display: flex;
@@ -410,15 +418,19 @@ ul {
 }
 .list-examples {
         flex-basis: calc((100% - 60px) / 3);
-        border-bottom: 1px solid #EEEEEE;
         background-color: var(--aditional-color);
         list-style: none;    
 }
 .photo {
         display: flex;
 }
+.example-text {
+        padding: 20px 24px;
+        border: 1px solid #EEEEEE;
+        border-top: 0;
+}
 .examples h2 {
-        margin: 20px 24px 4px 24px;
+        margin-bottom: 4px;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -427,7 +439,6 @@ ul {
         text-decoration: none;
 }
 .examples p {
-        margin: 0 24px 20px 24px;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;

@@ -25,23 +25,17 @@ ul {
         margin: 0;
 }
 .conteiner {
-        display: flex;
+        margin: 0 auto; 
         width: 1200px;
-        padding: 0 15px;
-        margin: 0 auto;   
+        padding-left: 15px;
+        padding-right: 15px;
 }
 
-.section-portfolio {
-        width: 1600px;
-        padding: 94px 0;
-} 
-/* .section-hero {
-        padding: 184px 0 94px 0;
-        width: auto;
-} */
+
 /*Навігація*/
 .page-header {
-        width: 1600px;
+        margin: 0 auto;
+        width: 100%;
         border-bottom: 1px solid #ECECEC;
 }
 .main-nav {
@@ -138,20 +132,19 @@ ul {
 } 
 /*Головна сторінка*/
 .section-hero {
-        width: 1600px;
+        width: 100%;
         padding-bottom: 94px;
-        width: auto;
          }
         
-.conteiner-hero {
-        padding-top: 140px; 
+.section-hero .conteiner {
+        padding-top: 200px; 
+        padding-bottom: 200px;
         text-align: center;
-        width: 1600px;
-        height: 600px;
         background-color: #2F303A;;
 }
 .main-title {
         display: block;
+        text-align: center;
         margin: 0 auto 30px auto;
         width: 696px;
         height: 120px;
@@ -166,7 +159,7 @@ ul {
 }
 .order-button {
         display: block;
-        margin: 0 auto 260px auto;
+        margin: 0 auto;
         min-width: 216px;
         height: 50px;
         padding: 10px 32px;
@@ -190,18 +183,10 @@ ul {
         border-radius: 4px;
         color: var(--aditional-color);
 }
-.title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--primary-text-color);
-        margin-bottom: 50px;
-}  
+ 
 /* section-features */
 .section-features {
-        width: 1600px;
+        width: 100%;
         padding-bottom: 94px;
         width: auto;
 }
@@ -244,44 +229,68 @@ ul {
 }
 /* section-activities */
 .section-activities {
-        width: 1600px;
+        width: 100%;
         padding-bottom: 94px;
         width: auto;
-}
-.activities .conteiner{
+         }
+.activities {
         display: flex;
-        align-items: center;
-        justify-items: center;
+        padding: 0;
 }
-
-.activities .title {
-        display: flex;
+.section-activities .title {
         display: block;
-        width: 366px;
-}
-.activities .item:not(:last-child) {
-        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+        min-width: 366px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        margin-bottom: 50px;
 }
 .activities .item {
-        display: block;
         display: flex;
+        min-width: 370px;
         list-style: none;
 }
-.activities .example {
+  .section-activities .photo {
+        display: block;
         max-width: 100%;
         height: auto;
+        margin: 0;
+
+}
+.section-activities .item:not(:last-child) {
+         margin-right: 30px; 
+}
+/* section staff     */
+.section-staff {
+        width: 100%;
+        padding-bottom: 94px;
+        padding-top: 94px;
+        width: auto;
+}
+.section-staff .title {
         display: block;
         display: flex;
-} 
-/* section staff     */
+        justify-content: center;
+        min-width: 366px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        margin-bottom: 50px;
+}
 .staff {
         display: flex;
         padding: 0;
 }
-.staff-list:not(:last-child) {
+.staff .item:not(:last-child) {
         margin-right: 30px;
 }
-.staff-list {
+.staff .item {
         list-style: none;
         background: var(--aditional-color);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -300,7 +309,6 @@ ul {
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
-        margin-top: 30px;
         margin-bottom: 10px;
 }
 .position {
@@ -311,18 +319,17 @@ ul {
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
-        margin-bottom: 30px;
         color: var(--accent-text-color);
 }
 /*Footer*/
 .page-footer {
-        padding: 60px 15px 60px 15px;
-        width: 1200px;
+        display: flex;
+        padding-bottom: 60px;
+        padding-top: 60px;
         margin: 0 auto;
         background-color: #2F303A;
 }
 .logo-footer {
-        display: flex;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -339,6 +346,7 @@ ul {
 .address-list {
         padding-left: 0;
         margin-top: 20px;
+        list-style: none;
 }
 .list:not(:last-child) {
         margin-bottom: 9px;
@@ -373,6 +381,10 @@ ul {
   color: var(--button-active-color);
 }
 /*Portfolio*/
+.section-portfolio {
+        width: 100%;
+        padding: 94px 0;
+}
 .filter {
         margin-right: 8px;
         padding: 6px 22px;
@@ -425,28 +437,28 @@ ul {
 .button {
         cursor: pointer;
 }
-.conteiner-examples {
+.examples {
         width: 1170px;
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
         align-items: center;
         margin: 0 auto;
-}
-.list-examples {
+        list-style: none;
+}  
+.item .examples {
         flex-basis: calc((100% - 60px) / 3);
         background-color: var(--aditional-color);
-        list-style: none;    
 }
 .photo {
         display: flex;
 }
-.example-text {
+.card-text {
         padding: 20px 24px;
         border: 1px solid #EEEEEE;
         border-top: 0;
 }
-.examples h2 {
+.examples h2 {  
         margin-bottom: 4px;
         font-weight: 700;
         font-size: 18px;
@@ -455,7 +467,7 @@ ul {
         color: var(--primary-text-color);
         text-decoration: none;
 }
-.examples p {
+.examples p { 
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;

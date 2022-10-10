@@ -56,7 +56,6 @@ ul {
         line-height: 31px;
         letter-spacing: 0.03em;
         color: var(--button-active-color);
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         text-decoration: none;
 }
 .logo-header .logo-footer:hover {
@@ -133,15 +132,11 @@ ul {
 /*Головна сторінка*/
 .section-hero {
         width: 100%;
-        padding-bottom: 94px;
-         }
-        
-.section-hero .conteiner {
-        padding-top: 200px; 
-        padding-bottom: 200px;
         text-align: center;
-        background-color: #2F303A;;
-}
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-color: #2F303A;
+         }      
 .main-title {
         display: block;
         text-align: center;
@@ -155,10 +150,9 @@ ul {
         letter-spacing: 0.06em;
         text-transform: uppercase;
          color: var(--aditional-color);
-        border: 1px solid #000000;
+        /* border: 1px solid #000000; */
 }
 .order-button {
-        display: block;
         margin: 0 auto;
         min-width: 216px;
         height: 50px;
@@ -187,6 +181,7 @@ ul {
 /* section-features */
 .section-features {
         width: 100%;
+        padding-top: 94px;
         padding-bottom: 94px;
         width: auto;
 }
@@ -223,6 +218,7 @@ ul {
 }
 .features .item {
         list-style: none;
+        flex-basis: 270px;
 }
 .features .item:not(:last-child) {
         margin-right: 30px;
@@ -296,6 +292,10 @@ ul {
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
+.staff .photo {
+        display: block;
+        max-width: 100%;
+}
 .card-text {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -323,10 +323,8 @@ ul {
 }
 /*Footer*/
 .page-footer {
-        display: flex;
         padding-bottom: 60px;
         padding-top: 60px;
-        margin: 0 auto;
         background-color: #2F303A;
 }
 .logo-footer {
@@ -337,18 +335,19 @@ ul {
         line-height: 31px;
         letter-spacing: 0.03em;
         color: var(--button-active-color);
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         text-decoration: none;
 }
 .page-footer .studio {
         color: var(--aditional-color);
 }
+.address {
+        margin-top: 20px;
+}
 .address-list {
         padding-left: 0;
-        margin-top: 20px;
         list-style: none;
 }
-.list:not(:last-child) {
+.address .item:not(:last-child) {
         margin-bottom: 9px;
 }
 .place {
@@ -386,7 +385,6 @@ ul {
         padding: 94px 0;
 }
 .filter {
-        margin-right: 8px;
         padding: 6px 22px;
         font-family: Roboto;
         font-weight: 500;
@@ -399,7 +397,6 @@ ul {
         border-width: 0;
 }
 .filter-all {
-        margin-right: 8px;
         padding: 6px 25px;
         font-family: Roboto;
         font-weight: 500;
@@ -418,8 +415,12 @@ ul {
         padding: 0; 
         margin-bottom: 50px;
 }
-.list {
+.filters .list { 
         list-style: none;
+        margin-right: 8px;
+}
+.filters .list:last-child {
+        margin-right: 0;
 }
 .filter:hover,
 .filter:focus,

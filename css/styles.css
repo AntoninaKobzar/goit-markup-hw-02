@@ -296,7 +296,7 @@ ul {
         display: block;
         max-width: 100%;
 }
-.card-text {
+.staff .card-text {
         padding-top: 30px;
         padding-bottom: 30px;
 }
@@ -454,7 +454,7 @@ ul {
 .photo {
         display: flex;
 }
-.card-text {
+.examples .card-text {
         padding: 20px 24px;
         border: 1px solid #EEEEEE;
         border-top: 0;
